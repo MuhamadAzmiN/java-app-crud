@@ -48,7 +48,6 @@ public class EditActivity extends AppCompatActivity {
         btnUpdate = findViewById(R.id.btnUpdate);
 
         btnUpdate.setOnClickListener(v -> updateData());
-        btnDelete.setOnClickListener(v -> deleteData());
     }
 
     private void loadData(int id) {
